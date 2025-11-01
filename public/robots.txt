@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://bndintern.netlify.app/sitemap.xml
