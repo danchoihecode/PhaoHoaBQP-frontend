@@ -11,7 +11,7 @@ interface CartProduct {
   quantity: string,
   product_quantity: string
 }
-const API_BASE_URL = import.meta.env.VUE_APP_API_URL || 'http://127.0.0.1:8000';
+const API_BASE_URL ='https://api.phaohoabqp.me';
 export const useCartStore = defineStore({
   id: 'cart',
   state: () => ({
