@@ -3,7 +3,7 @@ const API_BASE_URL ='https://api.phaohoabqp.me';
 export const useFooterStore = defineStore('footer', {
   state: () => ({
     footerData: {
-      column: []
+      news: []
     }
   }),
   actions: {
@@ -12,7 +12,7 @@ export const useFooterStore = defineStore('footer', {
         const response = await fetch(`${API_BASE_URL}/api/footer`);
         const data = await response.json();
         this.footerData = {
-          column: data.data.column_2
+          news: data.data.column_2
         };
       } catch (error) {
         console.error('Error fetching footer:', error);

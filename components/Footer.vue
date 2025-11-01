@@ -3,7 +3,7 @@
         <div class="info-page">
             <div class="w-full max-w-[220px]">
                 <div class="text-[14px] text-[#4D4E50] font-bold mb-[10px]">Chính sách và điều khoản</div>
-                <div class="text" v-for="item in column" :key="item.url">
+                <div class="text" v-for="item in news" :key="item.url">
                     <router-link :to="`/news`">{{ item.title }}</router-link>
                 </div>
             </div>
@@ -68,6 +68,13 @@
     </div>
 </template>
 <script setup>
+const news = [
+    { title: 'Chính sách bảo mật', url: 'chinh-sach-bao-mat' },
+    { title: 'Chính sách đổi trả', url: 'chinh-sach-doi-tra' },
+    { title: 'Chính sách vận chuyển', url: 'chinh-sach-van-chuyen' },
+    { title: 'Hướng dẫn sử dụng', url: 'huong-dan-su-dung' }
+];
+/*
 import { computed } from 'vue';
 import { useFooterStore } from '~/stores/footer';
 
@@ -77,7 +84,8 @@ const { data } = await useAsyncData('footerData', async () => {
     return footerStore.footerData;
 });
 
-const column = computed(() => data.value.column);
+const news = computed(() => data.value.news);
+*/
 
 </script>
 <style scoped>
