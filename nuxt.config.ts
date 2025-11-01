@@ -10,6 +10,13 @@ export default defineNuxtConfig({
         { property: 'og:description', content: 'Khám phá ngay những mẫu pháo hoa tốt nhất hiện nay tại Pháo hoa Bộ Quốc phòng.' },
         { property: 'og:url', content: 'https://phaohoabqp.me' },
         { property: 'og:type', content: 'website' },
+      ],
+      link: [
+        { 
+          rel: 'icon', 
+          type: 'image/png', 
+          href: '/favicon.png' 
+        }
       ]
     }
   },
