@@ -4,7 +4,7 @@
             <img src="/phao-hoa-banner.png" alt="banner" class="object-contain w-full">
         </div>
         <div class="container mx-auto">
-            <ProductGrid :category-name="item.name" :category-slug="category" />
+            <ProductGrid :category-name="item?.name" :category-slug="category" />
         </div>
 
     </div>
