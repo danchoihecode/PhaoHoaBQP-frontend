@@ -11,7 +11,7 @@
                 <div class="text-[14px] text-[#4D4E50] font-bold mb-[10px]">Liên hệ chúng tôi</div>
 
                 <div class="grid grid-cols-12">
-                    <div class="col-span-3"><span class="text">Hotline (Zalo):</span></div>
+                    <div class="col-span-3"><span class="text">Hotline (Zalo): </span></div>
                     <div class="col-span-9">
                         <div class="mb-[10px] text-nowrap">
                             <a href='tel:0862347123' >
