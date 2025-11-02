@@ -38,15 +38,14 @@
         </div>
         <div class="delivery">
             <div>
-                <span class="font-semibold">Để được phục vụ
-                    nhanh hơn,</span><span> chọn cách thức nhận hàng</span>
+                <span class="font-semibold">Cách thức nhận hàng: Giao tận nơi </span>
             </div>
-            <div class="flex gap-[20px] sm:mt-0 mt-[10px]">
+            <!-- <div class="flex gap-[20px] sm:mt-0 mt-[10px]">
                 <RadioButton :content="'Giao tận nơi'" :name="'delivery'" :index="0"
-                    :selected="orderStore.localDelivery" @change="updateDelivery(true)" />
-                <RadioButton :content="'Nhận tại kho'" :name="'delivery'" :index="1"
-                    :selected="!orderStore.localDelivery" @change="updateDelivery(false)" />
-            </div>
+                    :selected="orderStore.localDelivery" @change="updateDelivery(true)" /> -->
+                <!-- <RadioButton :content="'Nhận tại kho'" :name="'delivery'" :index="1"
+                    :selected="!orderStore.localDelivery" @change="updateDelivery(false)" /> -->
+            <!-- </div> -->
         </div>
         <div class="detail-address" v-show="orderStore.localDelivery">
             <div class="item-field">
@@ -62,10 +61,10 @@
                 </div>
             </div>
         </div>
-        <div class="list-address" v-show="!orderStore.localDelivery">
+        <!-- <div class="list-address" v-show="!orderStore.localDelivery">
             <RadioButton v-for="(supermarket, i) in supermarkets" :content="supermarket.address" :name="'supermarket'"
                 :index="i" :selected="orderStore.supermarket === supermarket.id" @change="updateSupermarket(supermarket.id)" />
-        </div>
+        </div> -->
     </div>
 </template>
 <script setup>
