@@ -7,7 +7,7 @@
         
         <!-- Icon Zalo -->
         <div class="relative w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-lg animate-shake overflow-hidden">
-          <a target="_blank" href="https://zalo.me/0866172604">
+          <a target="_blank" href="https://zalo.me/0862347123">
             <img class="w-14 h-14 rounded-full" alt="Zalo" src="/zalo.webp" />
           </a>
         </div>

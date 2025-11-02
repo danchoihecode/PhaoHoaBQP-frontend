@@ -14,15 +14,15 @@
                     <div class="col-span-3"><span class="text">Hotline (Zalo):</span></div>
                     <div class="col-span-9">
                         <div class="mb-[10px] text-nowrap">
-                            <a href='tel:0866172604' >
-                                <span class="phone-number">0866.1726.04</span>
+                            <a href='tel:0862347123' >
+                                <span class="phone-number">0862.3471.23</span>
                                 <span class="time"> (8h00 - 19h00) </span>
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <div class="grid grid-cols-12">
+                <!-- <div class="grid grid-cols-12">
                     <div class="col-span-3"><span class="text">Địa chỉ:</span></div>
                     <div class="col-span-9">
                         <div class="mb-[10px] text">
@@ -38,7 +38,7 @@
                                hoanghai2003vp@gmail.com
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div>
                 <!-- <div class="social-network">

@@ -103,7 +103,7 @@
                                 <div class="col-span-2 p-1 bg-grey-300 rounded-r-[6px]">
                                     <div
                                         class="text-[16px] font-bold text-primary-800 text-center cursor-pointer leading-5">
-                                        <a href="tel:0937222066">0937.222.066</a>
+                                        <a href="tel:0862347123">0862.3471.23</a>
                                     </div>
                                     <div class="text-[13px] font-normal text-grey-800 text-center mt-1">(8:00 - 19:00)
                                     </div>
